@@ -1,5 +1,5 @@
 {
-  "name": "password-generator",
+  "name": "generated-password",
   "version": "1.0.0",
   "description": "a package who make a password with n digits",
   "main": "index.js",
