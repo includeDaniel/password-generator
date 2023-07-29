@@ -7,5 +7,5 @@ export function passwordGenerator(number: number) {
     const nString = n.toString()
     password += nString
   }
-  return +password
+  return password
 }
