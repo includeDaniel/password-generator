@@ -4,7 +4,8 @@
     "description": "a package who make a password with n digits",
     "main": "index.js",
     "scripts": {
-        "test": "jest --coverage"
+        "test": "jest --coverage",
+        "lint": "eslint . --ext ts --ext tsx --ext js --ext snap"
     },
     "repository": {
         "type": "git",
@@ -23,6 +24,9 @@
     },
     "devDependencies": {
         "@types/jest": "^29.5.3",
-        "@types/node": "^20.4.5"
+        "@types/node": "^20.4.5",
+        "@typescript-eslint/eslint-plugin": "^6.2.0",
+        "@typescript-eslint/parser": "^6.2.0",
+        "eslint": "^8.46.0"
     }
 }
