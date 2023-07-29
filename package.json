@@ -1,7 +1,7 @@
 {
-  "name": "generated-password",
-  "version": "1.0.3",
-  "description": "a package who make a password with n digits",
+  "name": "@includeDaniel/password-generator",
+  "version": "1.0.4",
+  "description": "📦 a package who make a password with n digits",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.ts",
