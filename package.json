@@ -1,5 +1,5 @@
 {
-  "name": "@includeDaniel/password-generator",
+  "name": "@includedaniel/password-generator",
   "version": "1.0.4",
   "description": "📦 a package who make a password with n digits",
   "main": "dist/index.js",
