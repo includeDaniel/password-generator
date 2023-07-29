@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.ts",
-  "type": "module",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint . --ext ts --ext tsx --ext js --ext snap",
