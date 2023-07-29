@@ -1,26 +1,28 @@
 {
-  "name": "generated-password",
-  "version": "1.0.0",
-  "description": "a package who make a password with n digits",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/includeDaniel/password-generator.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/includeDaniel/password-generator/issues"
-  },
-  "homepage": "https://github.com/includeDaniel/password-generator#readme",
-  "dependencies": {
-    "typescript": "^5.1.6"
-  },
-  "devDependencies": {
-    "@types/node": "^20.4.5"
-  }
+    "name": "generated-password",
+    "version": "1.0.0",
+    "description": "a package who make a password with n digits",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/includeDaniel/password-generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/includeDaniel/password-generator/issues"
+    },
+    "homepage": "https://github.com/includeDaniel/password-generator#readme",
+    "dependencies": {
+        "ts-jest": "^29.1.1",
+        "typescript": "^5.1.6"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.3",
+        "@types/node": "^20.4.5"
+    }
 }
