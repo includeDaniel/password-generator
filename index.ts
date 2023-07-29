@@ -1,6 +1,6 @@
 // the parameter 'number' is the amount of digits you want your password to be
 
-module.exports = function passwordGenerator(number: number) {
+export default function passwordGenerator(number: number) {
     var password = "";
     for (var i = 1; i <= number; i++) {
         var n = Math.floor(Math.random() * 9);
@@ -8,4 +8,4 @@ module.exports = function passwordGenerator(number: number) {
         password += nString;
     }
     return +password;
-};
+}
