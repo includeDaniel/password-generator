@@ -1,4 +1,6 @@
 # password-generator
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/includeDaniel/password-generator/blob/main/LICENSE)
 [![main](https://github.com/includeDaniel/password-generator/actions/workflows/main.yml/badge.svg)](https://github.com/includeDaniel/password-generator/actions/workflows/main.yml)
 [![npm version](https://img.shields.io/npm/v/@includedaniel/password-generator.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/password-generator)
 [![codecov](https://codecov.io/gh/includeDaniel/pass-word-generator/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/pass-word-generator)
