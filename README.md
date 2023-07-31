@@ -15,13 +15,13 @@ Usage:
 
 ```js
 //module
-import { passwordGenerator } from "generated-password";
+import { passwordGenerator } from "generated-password"
 console.log(passwordGenerator(2)) // a random number with two digits: 48
 ```
 
 ```js
 //commomjs
-const { passwordGenerator } = require("generated-password");
+const { passwordGenerator } = require("generated-password")
 console.log(passwordGenerator(5)) // a random number with five digits: 45764
 ```
 
