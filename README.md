@@ -3,19 +3,21 @@
 [![npm version](https://img.shields.io/npm/v/@includedaniel/password-generator.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/password-generator)
 [![codecov](https://codecov.io/gh/includeDaniel/pass-word-generator/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/pass-word-generator)
 
-This JavaScript function generates a random password of a specified number of digits.
+Running tests:
 
-Usage
-To use the function, call passwordGenerator(number) and replace number with the desired number of digits for your password. For example:
+-   Run `yarn test` to execute the tests and export the reports to `/coverage` folder
 
-```
-var password = passwordGenerator(8);
-console.log(password); // Output: 18435672
-```
+Running lint:
 
-How it works
-The function uses a for loop to generate a random number between 0 and 9 for each digit of the password. The random number is converted to a string and added to the password variable. Finally, the function returns the password variable as a number.
+-  Run `yarn lint` to execute the eslint to fix and find problems in your code
+-  want to know more about eslint commands? [Follow the link](https://eslint.org/docs/latest/use/command-line-interface)
 
-Limitations
-The function only generates passwords using digits from 0 to 9. It does not include letters or special characters.
-The function does not check for password strength, such as avoiding common patterns or ensuring a mix of uppercase and lowercase letters, numbers, and symbols.
+Running prettier:
+
+-  Run `yarn format` to format the code according to established standards
+-  Run `yarn type-check` to check the types in your code
+
+Running rollup:
+
+-  Run `yarn build` to execute the rollup
+-  [Link for commands line flags of rollup](https://rollupjs.org/command-line-interface/#command-line-flags)
